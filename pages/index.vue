@@ -1,5 +1,11 @@
 <template>
-  <Tutorial />
+  <div>
+    <Header/>
+    <Jumbo />
+    <CallToAction />
+    <Services/>
+    <Footer/>
+  </div>
 </template>
 
 <script lang="ts">
