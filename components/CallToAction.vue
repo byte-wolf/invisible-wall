@@ -45,16 +45,17 @@
                             <td>Fr.</td>
                             <td>von 08:00 bis 12:00</td>
                         </tr>
-                        <hr class="my-5 w-full border-none">
+                        <tr>
+                            <td class="py-3"></td>
+                        </tr>
                         <tr>
                             <th class="pr-2 sm:pr-10 font-semibold align-top">Telefondienst</th>
                             <td>Mo. - Fr.</td>
                             <td>von 13:00 bis 17:00</td>
                         </tr>
-                        <hr class="my-5 w-full border-none">
                     </table>
 
-                    <h3 class="font-semibold mb-3">
+                    <h3 class="font-semibold mt-6 mb-3">
                         Werkstätte und Montagen:
                     </h3>
                     <a href="/contact">
