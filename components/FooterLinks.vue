@@ -1,5 +1,5 @@
 <template>
-    <div class="p-4 sm:flex sm:items-center sm:justify-between container mx-auto">
+    <div class="py-4 px-6 sm:flex sm:items-center sm:justify-between container mx-auto">
         <a href="https://www.glasdesign.at" class="flex items-center mb-4 sm:mb-0">
             <logo/>
             <span class="self-center text-xl font-semibold whitespace-nowrap dark:text-white">

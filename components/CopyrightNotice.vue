@@ -1,5 +1,5 @@
 <template>
-    <div class="text-center p-6 bg-gray-50">
+    <div class="text-center text-xs p-6 bg-gray-50">
         <span>© {{year}} Copyright:</span>
         <a class="text-blue-800" href="https://www.glasdesign.at">
             Wolffhardt GmbH

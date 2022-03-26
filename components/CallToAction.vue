@@ -95,7 +95,8 @@
 import ContactButton from './ContactButton.vue'
 export default {
     name: 'CallToAction',
-    components: {ContactButton}
+    components: {ContactButton},
+    
 }
 </script>
         
