@@ -21,7 +21,7 @@
                                 :options="{attributionControl: true}">
 
                                 <l-tile-layer 
-                                    url="http://{s}.tile.osm.org/{z}/{x}/{y}.png" 
+                                    url="https://{s}.tile.osm.org/{z}/{x}/{y}.png" 
                                     :attribution="attribution">
                                 
                                 </l-tile-layer>
