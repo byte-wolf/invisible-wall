@@ -1,26 +1,9 @@
 <template>
-  <section>
-      <div class="bg-gray-100 w-full">
+    <section>
         <div class="container mx-auto pb-8 flex flex-row flex-wrap justify-start items-start content-start md:gap-10">
-            <div class="mt-8 bg-white overflow-hidden shadow rounded-lg p-6 sm:w-auto w-full pr-20">
-                <h3 class="text-lg font-medium">
-                    Glasermeister
-                </h3>
-                <h2 class="text-xl font-bold mb-5">
-                    Andreas Wolffhardt
-                </h2>
-                <p>
-                    Rudolfstraße 4
-                    <br>
-                    3430 Tulln
-                    <br>
-                    02272 / 627 80-0
-                    <br>
-                    glas@tulln.net
-                    <br>
-                    <a href="https://www.glasdesign.at" class="text-blue-800">www.glasdesign.at</a>
-                </p>
-            </div>
+            
+            <contact-card />
+
             <div class="flex-grow overflow-hidden">
                 <div class="mt-8 bg-white overflow-hidden shadow rounded-lg p-6 h-auto">
                     <h3 class="text-lg font-medium">
@@ -58,44 +41,21 @@
                     <h3 class="font-semibold mt-6 mb-3">
                         Werkstätte und Montagen:
                     </h3>
-                    <a href="/contact">
+                    <nuxt-link to="/contact">
                         <contact-button />
-                    </a>
+                    </nuxt-link>
                 </div>
             </div>
         </div>
-
-        <div class="bg-blue-100 py-8">
-            <div class="container mx-auto">
-                <div class="text-blue-900  overflow-hidden rounded-lg p-6 h-auto">
-                    <h2 class="text-xl font-bold mb-3">
-                        Willkommen bei Glasdesign Wolffhardt
-                    </h2>
-                    
-                    <p class="text-justify">
-                        Der traditionsreiche Familienbetrieb im Zentrum von
-                        Tulln wird in vierter Generation von Andreas Wolffhardt
-                        geführt.
-                        Er setzt neben traditioneller Glaserei auf individuelle
-                        und künstlerisch gestaltete Glasprodukte und Spiegel
-                        und bringt seine Erfahrung als Glas-Sachverständiger ein.
-                        Die Zusammenarbeit mit anderen Handwerksbranchen, wie
-                        Tischler, Installateure oder Innenausstatter etc. wird
-                        forciert, um dem Kunden ein ganzheitliches Produkt bieten
-                        zu können.
-                    </p>
-                </div>
-            </div>  
-        </div>
-    </div>
-  </section>
+    </section>
 </template>
 
 <script>
 import ContactButton from './ContactButton.vue'
+import ContactCard from './ContactCard.vue'
 export default {
     name: 'CallToAction',
-    components: {ContactButton},
+    components: {ContactButton, ContactCard},
     
 }
 </script>

@@ -7,17 +7,8 @@
             </span>
         </a>
         <ul class="flex flex-wrap items-center text-sm text-gray-500 sm:mb-0 dark:text-gray-400">
-            <li>
-                <a href="#" class="mr-4 text-blue-800 md:mr-6 ">About</a>
-            </li>
-            <li>
-                <a href="#" class="mr-4 text-blue-800 md:mr-6">Privacy Policy</a>
-            </li>
-            <li>
-                <a href="#" class="mr-4 text-blue-800 md:mr-6 ">Licensing</a>
-            </li>
-            <li>
-                <a href="#" class="text-blue-800">Contact</a>
+            <li v-for="item in linkItems" :key="item.title">
+                <nuxt-link :to="'/' + item.page" class="footer-link-item">{{ item.title }}</nuxt-link>
             </li>
         </ul>
     </div>
@@ -29,5 +20,14 @@ import Logo from './Logo.vue'
 export default Vue.extend({
     name: 'FooterLinks',
     components: { Logo },
+    data: () => {
+        return {
+            linkItems: [
+                {title: 'Impressum', page: 'imprint'},
+                {title: 'Datenschutz', page: 'privacy'},
+                {title: 'Kontakt', page: 'contact'},
+            ],
+        };
+    }
 })
 </script>
