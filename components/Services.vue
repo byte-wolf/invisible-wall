@@ -1,7 +1,7 @@
 <template>
   <section class="bg-gray-100 py-8">
-      <div class="container mx-auto flex justify-evenly flex-wrap">
-          <div v-for="service in services" :key="service.title" class="max-w-sm w-96 bg-white shadow rounded-md overflow-hidden flex flex-col">
+      <div class="container mx-auto flex justify-evenly gap-5 flex-wrap">
+          <div v-for="service in services" :key="service.title" class="max-w-sm w-96 bg-white shadow rounded-md overflow-hidden flex flex-col sm:mb-0 mb-5">
                 
                 <img class="w-full h-40 object-cover" :src="require('~/assets/img/'+ service.image)" alt="schiebetür" />
                 
