@@ -2,7 +2,7 @@
   <div>
     
     <CallToAction />
-    <colored-text />
+    <colored-text :title="introductionTitle" :text="introductionText" />
     <Services     />
 
   </div>
@@ -18,6 +18,23 @@ export default Vue.extend({
   head: () => {
     return {
       title: 'Glasdesign Wolffhardt'
+    };
+  },
+  data: () => {
+    return {
+      introductionTitle: `Willkommen bei Glasdesign Wolffhardt`,
+      introductionText: `
+        Der traditionsreiche Familienbetrieb im Zentrum von
+        Tulln wird in vierter Generation von Andreas Wolffhardt
+        geführt.
+        Er setzt neben traditioneller Glaserei auf individuelle
+        und künstlerisch gestaltete Glasprodukte und Spiegel
+        und bringt seine Erfahrung als Glas-Sachverständiger ein.
+        Die Zusammenarbeit mit anderen Handwerksbranchen, wie
+        Tischler, Installateure oder Innenausstatter etc. wird
+        forciert, um dem Kunden ein ganzheitliches Produkt bieten
+        zu können.
+      `,
     };
   }
 });

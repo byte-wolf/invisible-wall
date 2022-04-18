@@ -4,21 +4,14 @@
             <div class="container mx-auto">
                 <div class="text-blue-900  overflow-hidden rounded-lg p-6 h-auto">
                     <h2 class="text-xl font-bold mb-3">
-                        Willkommen bei Glasdesign Wolffhardt
+                        {{ title }}
                     </h2>
                     
                     <p class="text-justify">
-                        Der traditionsreiche Familienbetrieb im Zentrum von
-                        Tulln wird in vierter Generation von Andreas Wolffhardt
-                        geführt.
-                        Er setzt neben traditioneller Glaserei auf individuelle
-                        und künstlerisch gestaltete Glasprodukte und Spiegel
-                        und bringt seine Erfahrung als Glas-Sachverständiger ein.
-                        Die Zusammenarbeit mit anderen Handwerksbranchen, wie
-                        Tischler, Installateure oder Innenausstatter etc. wird
-                        forciert, um dem Kunden ein ganzheitliches Produkt bieten
-                        zu können.
+                        {{ text }}
                     </p>
+
+                    <white-contact-button v-if="button"/>
                 </div>
             </div>  
         </div>
@@ -27,8 +20,15 @@
 
 <script lang="ts">
 import Vue from 'vue'
+import WhiteContactButton from './WhiteContactButton.vue'
 export default Vue.extend({
+  components: { WhiteContactButton  },
     name: 'ColoredText',
+    props: {
+        title: String,
+        text: String,
+        button: Boolean,
+    }
 })
 </script>
 
