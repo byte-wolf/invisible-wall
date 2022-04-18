@@ -14,7 +14,7 @@
                 <div id="mobile-menu" :class="{hidden: !showMenu}" class=" w-full md:block md:w-auto">
                 <ul class="flex flex-col mt-4 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium">
                     <li @click="showMenu = false" v-for="item in menuItems" :key="item.title">
-                        <nuxt-link :to="'/'+item.page" :class="{'link-item-active': $nuxt.$route.path.includes(item.page)}" class="link-item">
+                        <nuxt-link :to="'/'+item.page" :class="{'link-item-active': $nuxt.$route.path.replace('/', '') === item.page}" class="link-item">
                             {{item.title}}
                         </nuxt-link>
                     </li>
