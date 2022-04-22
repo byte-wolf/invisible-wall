@@ -4,7 +4,7 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'invisible-wall',
+    title: 'Glasdesign Wolffhardt',
     htmlAttrs: {
       lang: 'en',
     },
