@@ -3,9 +3,11 @@
     <div class="container mx-auto">
         <div class="bg-white rounded-md overflow-hidden">
             <div class="p-6">
-                <h1 class="font-bold text-xl mb-4">Unsere Leistungen</h1>
+                <h1 class="font-bold text-xl mb-4">
+                    {{ title }}
+                </h1>
                 <p>
-                    Wir bieten eine Vielzahl an verschiedenen Dienstleistungen an. Hier finden Sie eine Auswahl davon.
+                    {{ text }}
                 </p>
             </div>
         </div>

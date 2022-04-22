@@ -1,6 +1,6 @@
 <template>
   <div>
-      <card-heading/>
+      <card-heading :title="heading" :text="subheading" />
       <services/>
       <other-services/>
       <colored-text :title="introductionTitle" :text="introductionText" :button="true"/>
@@ -17,6 +17,11 @@ export default Vue.extend({
   components: { Services, ColoredText, CardHeading, OtherServices },
   data: () => {
     return {
+      heading: 'Unsere Leistungen',
+      subheading: `Wir bieten eine Vielzahl an
+      verschiedenen Dienstleistungen an. Hier
+      finden Sie eine Auswahl davon.`,
+
       introductionTitle: `Sie haben einen anderen Wunsch? Kein Problem!`,
       introductionText: `
         Auch individuelle Projekte erledigen wir für Sie. Rufen Sie an,
