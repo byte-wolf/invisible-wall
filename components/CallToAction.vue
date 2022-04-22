@@ -6,12 +6,12 @@
 
             <div class="flex-grow overflow-hidden">
                 <div class="mt-8 bg-white overflow-hidden shadow rounded-lg p-6 h-auto">
-                    <h3 class="text-lg font-medium">
+                    <h2 class="text-lg font-medium">
                         Glasereibetrieb
-                    </h3>
-                    <h2 class="text-xl font-bold mb-5">
-                        Aktuelle Öffnungszeiten
                     </h2>
+                    <h1 class="text-xl font-bold mb-5">
+                        Aktuelle Öffnungszeiten
+                    </h1>
                     <table class="text-left">
                         <tr>
                             <th class="pr-2 sm:pr-10 font-semibold align-top">Büro</th>

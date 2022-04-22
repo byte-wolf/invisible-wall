@@ -6,12 +6,12 @@
 
             <div class="flex-grow overflow-hidden">
                 <div class="mt-8 bg-white overflow-hidden shadow rounded-lg p-6 h-auto">
-                    <h1 class="text-lg font-medium">
+                    <h2 class="text-lg font-medium">
                         Glasereibetrieb
-                    </h1>
-                    <h2 class="text-xl font-bold mb-3">
-                        Kontakt und Anfragen
                     </h2>
+                    <h1 class="text-xl font-bold mb-3">
+                        Kontakt und Anfragen
+                    </h1>
                     
                     <div id="map-wrap" class="h-72 rounded-lg overflow-hidden">
                         <client-only>

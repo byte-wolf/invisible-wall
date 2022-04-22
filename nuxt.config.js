@@ -6,7 +6,7 @@ export default {
   head: {
     title: 'Glasdesign Wolffhardt',
     htmlAttrs: {
-      lang: 'en',
+      lang: 'de',
     },
     meta: [
       { charset: 'utf-8' },
