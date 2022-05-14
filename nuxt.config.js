@@ -44,6 +44,7 @@ export default {
     // https://go.nuxtjs.dev/axios
     '@nuxtjs/axios',
     'nuxt-leaflet',
+    '@nuxtjs/sitemap',
   ],
 
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
@@ -54,4 +55,13 @@ export default {
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {},
+
+  sitemap: {
+    hostname: 'https://www.glasdesign.at',
+    gzip: true,
+    defaults: {
+      changefreq: 'monthly',
+      lastmod: new Date(),
+    },
+  }
 }
