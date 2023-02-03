@@ -20,7 +20,7 @@
         </p>
         
         <p class="mt-4">
-            <span><span class="font-bold px-1.5 mr-2 bg-blue-100 text-blue-900 rounded">02272 / 201 74</span></span>
+            <span><span class="font-bold px-1.5 mr-2 bg-blue-100 text-blue-900 rounded">02272 / 627 80</span></span>
         </p>
     </div>
 </template>
