@@ -38,3 +38,8 @@ header {
 .footer-link-item {
     @apply ml-4 text-blue-800 md:ml-6
 }
+
+
+.backdrop-blur-CUSTOM {
+    backdrop-filter: blur(12px);
+}
