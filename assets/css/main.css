@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 .jumbo2 {
     height: 40vh;
     background-position: 0% 65%;
