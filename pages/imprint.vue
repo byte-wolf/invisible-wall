@@ -34,7 +34,11 @@ import Vue from 'vue'
 import CardHeading from '~/components/CardHeading.vue'
 export default Vue.extend({
   components: { CardHeading },
-    
+  head: () => {
+    return {
+      title: 'Impressum'
+    };
+  },
 })
 </script>
 

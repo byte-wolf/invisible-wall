@@ -15,6 +15,11 @@ import OtherServices from '~/components/OtherServices.vue'
 import Services from '~/components/Services.vue'
 export default Vue.extend({
   components: { Services, ColoredText, CardHeading, OtherServices },
+  head: () => {
+    return {
+      title: 'Leistungen'
+    };
+  },
   data: () => {
     return {
       heading: 'Unsere Leistungen',

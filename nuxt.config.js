@@ -11,7 +11,7 @@ export default {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: '' },
+      { hid: 'description', name: 'description', content: ' Der traditionsreiche Familienbetrieb im Zentrum von Tulln wird in vierter Generation von Andreas Wolffhardt geführt. Er setzt neben traditioneller Glaserei auf individuelle und künstlerisch gestaltete Glasprodukte und Spiegel und bringt seine Erfahrung als Glas-Sachverständiger ein. Die Zusammenarbeit mit anderen Handwerksbranchen, wie Tischler, Installateure oder Innenausstatter etc. wird forciert, um dem Kunden ein ganzheitliches Produkt bieten zu können.' },
       { name: 'format-detection', content: 'telephone=no' },
     ],
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],

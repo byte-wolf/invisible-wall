@@ -35,7 +35,14 @@
 <script lang="ts">
 import Vue from 'vue'
 export default Vue.extend({
-    
+    head: () => {
+        return {
+            title: 'Datenschutz',
+            meta: [
+                { name: "robots", content: "noindex" }
+            ]
+        };
+    },
 })
 </script>
 

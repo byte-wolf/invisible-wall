@@ -8,7 +8,11 @@
 import Vue from 'vue'
 import ContactField from '~/components/ContactField.vue'
 export default Vue.extend({
-    
+    head: () => {
+    return {
+      title: 'Kontakt'
+    };
+  },
 })
 </script>
 
