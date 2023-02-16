@@ -1,6 +1,6 @@
 <template>
     <header>
-        <nav class="bg-white backdrop-blur-CUSTOM sm:bg-opacity-70 bg-opacity-80 border-gray-200 px-2 sm:px-4 py-3 rounded shadow-sm">
+        <nav class="bg-white backdrop-blur-CUSTOM md:bg-opacity-50 bg-opacity-60 border-gray-200 px-2 sm:px-4 py-3 rounded shadow-sm">
             <div class="container flex flex-wrap justify-between items-center mx-auto px-6">
                 <nuxt-link to="/" class="flex items-center">
                     <logo/>
