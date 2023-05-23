@@ -10,7 +10,8 @@
         <div>3430 Tulln</div>
         <div>Österreich</div>
 
-        <div class="mt-4">Tel.: 02272 / 627 80-0</div>
+        <div class="mt-4">Tel.: 02272 / 627 80
+        </div>
         <div>E-Mail: glas@tulln.net</div>
         <div>Website: www.glasdesign.at</div>
 
