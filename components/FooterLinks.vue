@@ -25,9 +25,9 @@ export default Vue.extend({
             linkItems: [
                 {title: 'Impressum', page: 'imprint'},
                 {title: 'Datenschutz', page: 'privacy'},
-                {title: 'Kontakt', page: 'contact'},
+                //{title: 'Kontakt', page: 'contact'},
             ],
         };
-    }
+    },
 })
 </script>

@@ -13,6 +13,9 @@ export default Vue.extend({
       title: 'Kontakt'
     };
   },
+  beforeMount: () => {
+    window.location.href = "/";
+  }
 })
 </script>
 
