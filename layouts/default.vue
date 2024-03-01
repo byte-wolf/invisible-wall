@@ -1,9 +1,9 @@
 <template>
-  <div>
-    <Header/>
+  <div class="flex flex-col h-screen">
+    <!--<Header/>-->
     <Jumbo />
     
-    <div class="bg-gray-100 w-full">
+    <div class="w-full flex-grow">
       <Nuxt />
     </div>
 

@@ -1,6 +1,6 @@
 <template>
     <section>
-        <div class="jumbo">
+        <div class="md:jumbo jumbo-sm  w-screen">
             
         </div>
     </section>

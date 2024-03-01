@@ -2,7 +2,7 @@
     <div class="text-center text-xs p-6 bg-gray-50">
         <span>© {{year}} Copyright:</span>
         <a class="text-blue-800" href="https://www.glasdesign.at">
-            Wolffhardt GmbH
+            Andreas Wolffhardt
         </a>
     </div>
 </template>

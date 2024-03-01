@@ -14,6 +14,16 @@
     background-attachment: initial;
     background-position: center 95%;
     background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('~assets/img/backgrounds/glass_architecture.jpg');
+}
+
+
+.jumbo-sm {
+    height: 30vh;
+    background-attachment: initial;
+    background-position: center 95%;
+    background-repeat: no-repeat;
     background-size: auto cover;
     background-image: url('~assets/img/backgrounds/glass_architecture.jpg');
 }
